@@ -1,0 +1,86 @@
+#include<stdio.h>
+
+int main() {
+	
+    int yas;
+	int islem;
+	int control = 1;
+	
+	printf("                                      WELCOM THE COMPUTER LANGUE LEARN\n\n");
+	printf("Enter Your Age:");
+	scanf("%d",&yas);
+	
+	while(control == 1){
+
+	
+	if(yas >= 5) {
+        printf("\n\nWELCOME:\n");	
+		printf("CATEGORIES:\n1:C\n2:C#\n3:C++\n4:JAVA\n5:PYTHON\n6:javaScript\n\n\n");
+		printf("Select Category:");
+		scanf("%d",&islem);
+		
+		switch(islem) {
+			
+			case 1:
+				printf("https://www.youtube.com/playlist?list=PLIHume2cwmHdFsJRo5oYG7yQ4NyUx43ql");
+				
+				
+				
+				break;
+				
+				
+			case 2:
+				printf("https://www.youtube.com/watch?v=2EkMrrX9sYY&list=PLqG356ExoxZU5keiJwuHDpXqULLffwRYD");
+			
+				
+				
+				break;
+				
+				
+			case 3:
+				printf("https://www.youtube.com/watch?v=UpQdjipl2OE&list=PLIHume2cwmHfmSmNlxXw1j9ZAKzYyiQAq");
+				
+				
+				
+				break;
+				
+				
+				case 4:
+				printf("https://www.youtube.com/playlist?list=PLqG356ExoxZUGwbqoJEKSMnaxVJe4Uvf8");
+				printf("https://www.kodlama.io/courses/enrolled/1868842");
+				
+				
+				
+				break;
+				
+				
+			case 5:
+				printf("https://www.youtube.com/watch?v=t176iXgG5PI&list=PL3kMAPso9YQ1Ls-5uTTIWWMkJoF_vyj5J");
+			
+				
+				break;
+				
+				
+			case 6:
+				printf("https://www.youtube.com/watch?v=gndWkaTyo6g&list=PLGrTHqyRDvx6PqKkqSPwph57HNN4RWgR2");
+			
+				
+				
+				break;
+				
+		}
+		
+			printf("\n\nPress '1' to See The Categories Again:");
+			scanf("%d",&control);
+	}
+	else {
+	printf("Not Enough Your Age ");
+	printf("Join The Computer Langue Learn For Min. Your Age Must 5");
+	break;
+	}
+	
+	}
+	
+
+	return 0;
+}
